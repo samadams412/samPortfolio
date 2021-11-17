@@ -85,6 +85,7 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
+
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {
   const nav = document.getElementById("header");
@@ -93,6 +94,7 @@ function scrollHeader() {
   else nav.classList.remove("scroll-header");
 }
 window.addEventListener("scroll", scrollHeader);
+
 /*==================== SHOW SCROLL UP ====================*/
 function scrollUp() {
   const scrollUp = document.getElementById("scroll-up");
@@ -101,6 +103,7 @@ function scrollUp() {
   else scrollUp.classList.remove("show-scroll");
 }
 window.addEventListener("scroll", scrollUp);
+
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
