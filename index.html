@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--==================== UNICONS ====================-->
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <!--===================== DEVICONS ==================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -78,10 +78,7 @@
               <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
                 <i class="uil uil-linkedin"></i>
               </a>
-              <a href="https://dribbble.com/" target="_blank" class="home__social-icon">
-                <i class="uil uil-dribbble"></i>
-              </a>
-              <a href="https://github.com/" target="_blank" class="home__social-icon">
+              <a href="https://github.com/samadams412" target="_blank" class="home__social-icon">
                 <i class="uil uil-github-alt"></i>
               </a>
             </div>
@@ -98,7 +95,7 @@
                         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        <image  class="home__blob-img" x='15' y='-19' xlink:href="assets/images/profile.png"/>
+                        <image  class="home__blob-img" x='15' y='-17' href="assets/images/profile.png"/>
                     </g>
                 </svg>
             </div>
@@ -132,12 +129,12 @@
               <div class="about__data">
                   <p class="about__description">The is my about me description.</p>
 
-                  <div class="about__info">
+                  <!-- <div class="about__info">
                       <div>
                           <span class="about__info-title">02+</span>
                           <span class="about__info-name">Years <br> experience</span>
                       </div>
-                  </div>
+                  </div> -->
                   <div class="about__buttons">
                       <a download="" href="assets/pdf/Resume 1.pdf" class="button button--flex">
                           Download CV<i class="uil uil-download-alt button__icon"></i>
@@ -148,22 +145,247 @@
       </section>
 
       <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills"></section>
+      <section class="skills section" id="skills">
+          <h2 class="section__title">Skills</h2>
+          <span class="section__subtitle"></span>
+
+          <div class="skills__container container grid">
+              <div>
+                  <div class="skills__content skills__open">
+                      <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>
+                        </div>
+                        <i class="uil uil-angle-double-down skills__arrow"></i>
+                      </div>
+
+                      <div class="skills__list grid">
+                          <div class="skills__data">
+                              <div class="skills__title">
+                                  <h3 class="skills__name"><i class="devicon-html5-plain colored"></i> HTML</h3>
+                                  
+                              </div>
+                              
+                          </div>
+                          <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-handlebars-plain colored"></i> Handlebars</h3>
+                                
+                            </div>
+                            
+                        </div>
+                          <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-css3-plain colored"></i> CSS</h3>
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</h3>
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-bulma-plain colored"></i> Bulma</h3>
+                                
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-javascript-plain colored"></i> JavaScript</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-jquery-plain colored"></i> jQuery</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-webpack-plain colored"></i> Webpack</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-react-original colored"></i> React</h3>
+                                
+                            </div>
+                            
+                        </div>
+                      </div>
+
+                      
+                  </div>
+              </div>
+            
+              <div>
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-server skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <!-- <span class="skills_subtitle">More than x Years</span> -->
+                        </div>
+                        <i class="uil uil-angle-double-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-nodejs-plain colored"></i> Node.js</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-express-original colored"></i> Express.js</h3>
+
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-jest-plain colored"></i> Jest</h3>
+
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-mysql-plain colored"></i> MySQL</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <h3 class="skills__name"><i class="devicon-java-plain colored"></i> Java</h3>
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="skills__data">
+                        <div class="skills__title">
+                            <h3 class="skills__name"><i class="devicon-mongodb-plain colored"></i> MongoDB</h3>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__title">
+                            <h3 class="skills__name"><i class="devicon-heroku-original colored"></i> Heroku</h3>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__title">
+                            <h3 class="skills__name"><i class="devicon-sequelize-plain colored"></i> Sequelize</h3>
+                            
+                        </div>
+                        
+                    </div>
+                    </div>
+
+                    
+                </div>
+              </div>
+                
+              
+          </div>
+      </section>
 
       <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section"></section>
+      <!-- <section class="qualification section"></section> -->
 
       <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
+      <!-- <section class="services section" id="services"></section> -->
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+          <h2 class="section__title">Portfolio</h2>
+          <span class="section__subtitle">Most Recent Work</span>
 
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section"></section>
+          <div class="portfolio__container container swiper-container">
+              <div class="swiper-wrapper">
+                  <!--==================== PORTFOLIO 1====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                      <img src="assets/images/portfolio1.PNG" alt="" class="portfolio__img">
 
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+                      <div class="portfolio__data">
+                          
+                          <h3 class="portfolio__title">FanPass
+                            <a href="https://github.com/samadams412/fanPass" target="_blank" class="portfolio__social-icon">
+                                <i class="uil uil-github"></i>
+                              </a>
+                          </h3>
+                          
+                          <p class="portfolio__description">Full-stack music blog site that follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. </p>
+                          <a href="https://fan-pass.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                              Deployed App
+                              <i class="uil uil-arrow-right button__icon"></i>
+                          </a>
+                      </div>
+                  </div>
+                  <!--==================== PORTFOLIO 2 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/portfolio2.PNG" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Concert Tracker
+                            <a href="https://github.com/samadams412/concertTracker" target="_blank" class="portfolio__social-icon">
+                                <i class="uil uil-github"></i>
+                              </a>
+                        </h3>
+                        <p class="portfolio__description">Front-end application that provides users with ticket information, and music videos in one single search by integrating data received from multiple server-side API requests.
+                        </p>
+                        <a href="https://fan-pass.herokuapp.com/" target="_blank" class="button button--flex button--small portfolio__button">
+                            Deployed App
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                 </div>
+                <!--==================== PORTFOLIO 3 ====================-->
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="assets/images/portfolio3.PNG" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">E-Commerce Back End
+                            <a href="https://github.com/samadams412/e-commerce-backend" target="_blank" class="portfolio__social-icon">
+                                <i class="uil uil-github"></i>
+                              </a>
+                        </h3>
+                        <p class="portfolio__description">This application is the back end for an e-commerce site. It configures an Express.js API to use Sequelize to interact with a MySQL database. It demonstrates the use of database models, assosciation methods, and API routes required to perform RESTful CRUD operations.</p>
+                        
+                    </div>
+                </div>
+              </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+          </div>
+
+
+      </section>
+
+      
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact"></section>
@@ -175,7 +397,7 @@
     <!--==================== SCROLL TOP ====================-->
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
