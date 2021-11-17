@@ -1,1 +1,1 @@
-# samPortfolio
+# Samuel Adams Responsive Portfolio
